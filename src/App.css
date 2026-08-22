@@ -32,11 +32,20 @@ h1 {
   width: min(100%, 1120px);
   margin-top: clamp(20px, min(4vw, 5vh), 44px);
   display: grid;
-  gap: clamp(16px, min(2.4vw, 3vh), 28px);
+  gap: 0;
   padding: clamp(14px, min(2.2vw, 2.8vh), 24px);
   border: 3px solid #2f7eea;
   border-radius: 16px;
   background: #ffffff;
+}
+
+.row-group {
+  display: grid;
+  gap: clamp(10px, min(1.5vw, 2vh), 16px);
+}
+
+.row-group + .row-group {
+  margin-top: clamp(30px, min(5vw, 6vh), 58px);
 }
 
 .randomizer-row {
