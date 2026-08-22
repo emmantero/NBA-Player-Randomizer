@@ -4,13 +4,25 @@ import './App.css'
 const rows = ['top', 'bottom']
 const SPIN_DURATION = 2200
 const SPIN_TICK = 10
+const attributes = [
+  'Shooting',
+  'Body',
+  'Defense',
+  'Clutch',
+  'Playmaking',
+  'Scoring',
+  'Finishing',
+  'Handles',
+  'Dunking',
+  'Speed',
+]
 
 function getRandomItem(items) {
   return items[Math.floor(Math.random() * items.length)]
 }
 
-function RandomizerCard({ title, placeholder, players = [], canSpin = false }) {
-  const [selectedPlayer, setSelectedPlayer] = useState(null)
+function RandomizerCard({ title, placeholder, items = [], type = 'text' }) {
+  const [selectedItem, setSelectedItem] = useState(null)
   const [isSpinning, setIsSpinning] = useState(false)
   const intervalRef = useRef(null)
   const timeoutRef = useRef(null)
@@ -23,20 +35,20 @@ function RandomizerCard({ title, placeholder, players = [], canSpin = false }) {
   }, [])
 
   function handleSpin() {
-    if (!canSpin || isSpinning || players.length === 0) {
+    if (isSpinning || items.length === 0) {
       return
     }
 
     setIsSpinning(true)
-    setSelectedPlayer(getRandomItem(players))
+    setSelectedItem(getRandomItem(items))
 
     intervalRef.current = setInterval(() => {
-      setSelectedPlayer(getRandomItem(players))
+      setSelectedItem(getRandomItem(items))
     }, SPIN_TICK)
 
     timeoutRef.current = setTimeout(() => {
       clearInterval(intervalRef.current)
-      setSelectedPlayer(getRandomItem(players))
+      setSelectedItem(getRandomItem(items))
       setIsSpinning(false)
     }, SPIN_DURATION)
   }
@@ -45,16 +57,18 @@ function RandomizerCard({ title, placeholder, players = [], canSpin = false }) {
     <article className="randomizer-card">
       <h2>{title}</h2>
       <div className={`card-display${isSpinning ? ' is-spinning' : ''}`}>
-        {selectedPlayer ? (
-          <div className="player-result">
-            <img src={selectedPlayer.thumbnail} alt={selectedPlayer.name} />
-            <span>{selectedPlayer.name}</span>
+        {selectedItem ? (
+          <div className={`slot-result ${type}-result`}>
+            {type === 'player' && (
+              <img src={selectedItem.thumbnail} alt={selectedItem.name} />
+            )}
+            <span>{type === 'player' ? selectedItem.name : selectedItem}</span>
           </div>
         ) : (
           <span>{placeholder}</span>
         )}
       </div>
-      <button type="button" onClick={handleSpin} disabled={!canSpin || isSpinning}>
+      <button type="button" onClick={handleSpin} disabled={items.length === 0 || isSpinning}>
         {isSpinning ? 'Spinning' : 'Spin'}
       </button>
     </article>
@@ -84,20 +98,22 @@ function App() {
             {createElement(RandomizerCard, {
               title: 'Player 1',
               placeholder: 'Press Spin',
-              players,
-              canSpin: true,
+              items: players,
+              type: 'player',
             })}
             <span className="connector">With</span>
             {createElement(RandomizerCard, {
               title: 'Player 2',
               placeholder: 'Press Spin',
-              players,
-              canSpin: true,
+              items: players,
+              type: 'player',
             })}
             <span className="connector">'s</span>
             {createElement(RandomizerCard, {
               title: 'Attribute',
               placeholder: '-',
+              items: attributes,
+              type: 'attribute',
             })}
           </div>
         ))}
