@@ -1,9 +1,10 @@
 .app-shell {
-  min-height: 100vh;
-  display: grid;
-  justify-items: center;
-  align-items: start;
-  padding: clamp(28px, 6vw, 56px);
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: clamp(16px, 3.4vw, 36px);
+  overflow-x: hidden;
 }
 
 .page-header {
@@ -14,15 +15,108 @@
 h1 {
   margin: 0;
   color: #ffffff;
-  font-size: clamp(2rem, 7vw, 3.75rem);
+  font-size: clamp(1.85rem, min(5vw, 7vh), 3.4rem);
   font-weight: 700;
   line-height: 1.05;
 }
 
 .page-header p {
-  margin: clamp(12px, 2vw, 18px) 0 0;
+  margin: clamp(8px, 1.4vw, 14px) 0 0;
   color: #c9d4e5;
-  font-size: clamp(1.35rem, 4.2vw, 2.75rem);
+  font-size: clamp(1.25rem, min(3.5vw, 4.8vh), 2.4rem);
   font-style: italic;
   line-height: 1.1;
+}
+
+.randomizer-board {
+  width: min(100%, 980px);
+  margin-top: clamp(20px, min(4vw, 5vh), 44px);
+  display: grid;
+  gap: clamp(16px, min(2.4vw, 3vh), 28px);
+  padding: clamp(14px, min(2.2vw, 2.8vh), 24px);
+  border: 3px solid #2f7eea;
+  border-radius: 16px;
+  background: #ffffff;
+}
+
+.randomizer-row {
+  display: grid;
+  grid-template-columns: minmax(128px, 190px) auto minmax(128px, 190px) auto minmax(128px, 190px);
+  align-items: center;
+  justify-content: center;
+  gap: clamp(10px, 1.8vw, 24px);
+}
+
+.randomizer-card {
+  width: min(100%, 190px);
+  display: grid;
+  gap: 10px;
+}
+
+.randomizer-card h2 {
+  min-height: clamp(32px, 5vh, 42px);
+  margin: 0;
+  display: grid;
+  place-items: center;
+  border: 3px solid #090c3f;
+  border-bottom: 0;
+  border-radius: 12px 12px 0 0;
+  background: #111446;
+  color: #d4c447;
+  font-size: clamp(0.75rem, min(1.2vw, 1.8vh), 0.95rem);
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.card-display {
+  aspect-ratio: 1 / 0.95;
+  margin-top: -10px;
+  display: grid;
+  place-items: center;
+  border: clamp(8px, 1.4vw, 12px) solid #111446;
+  border-radius: 0 0 12px 12px;
+  background: #ffffff;
+  color: #878796;
+  font-size: clamp(0.72rem, 1vw, 0.85rem);
+  font-weight: 700;
+}
+
+.randomizer-card button {
+  min-height: clamp(28px, 4vh, 34px);
+  border: 0;
+  border-radius: 5px;
+  background: #263dd8;
+  color: #ffffff;
+  font: inherit;
+  font-size: clamp(0.72rem, 1vw, 0.85rem);
+  font-weight: 800;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.randomizer-card button:hover {
+  background: #3150f0;
+}
+
+.connector {
+  color: #000000;
+  font-size: clamp(1.55rem, min(3vw, 4.8vh), 2.8rem);
+  font-weight: 900;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+@media (max-width: 720px) {
+  .randomizer-row {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .randomizer-card {
+    width: min(100%, 260px);
+  }
+
+  .connector {
+    font-size: 2rem;
+  }
 }
