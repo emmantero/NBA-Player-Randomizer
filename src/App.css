@@ -29,7 +29,7 @@ h1 {
 }
 
 .randomizer-board {
-  width: min(100%, 980px);
+  width: min(100%, 1120px);
   margin-top: clamp(20px, min(4vw, 5vh), 44px);
   display: grid;
   gap: clamp(16px, min(2.4vw, 3vh), 28px);
@@ -41,14 +41,18 @@ h1 {
 
 .randomizer-row {
   display: grid;
-  grid-template-columns: minmax(128px, 190px) auto minmax(128px, 190px) auto minmax(128px, 190px);
+  grid-template-columns:
+    minmax(110px, 190px) minmax(42px, 0.35fr)
+    minmax(110px, 190px) minmax(28px, 0.22fr)
+    minmax(110px, 190px);
   align-items: center;
   justify-content: center;
-  gap: clamp(10px, 1.8vw, 24px);
+  gap: clamp(8px, 1.5vw, 22px);
 }
 
 .randomizer-card {
-  width: min(100%, 190px);
+  width: 100%;
+  max-width: 190px;
   display: grid;
   gap: 10px;
 }
@@ -83,28 +87,35 @@ h1 {
   font-weight: 700;
 }
 
-.player-result {
+.slot-result {
   width: 100%;
   height: 100%;
   display: grid;
-  grid-template-rows: 1fr auto;
   align-items: end;
   justify-items: center;
   gap: 4px;
 }
 
-.card-display.is-spinning .player-result {
+.player-result {
+  grid-template-rows: 1fr auto;
+}
+
+.attribute-result {
+  align-items: center;
+}
+
+.card-display.is-spinning .slot-result {
   animation: slotRoll 0.1s linear infinite;
 }
 
-.player-result img {
+.slot-result img {
   width: min(100%, 140px);
   height: 100%;
   min-height: 0;
   object-fit: contain;
 }
 
-.player-result span {
+.slot-result span {
   width: 100%;
   color: #111446;
   font-size: clamp(0.68rem, 0.9vw, 0.82rem);
@@ -112,6 +123,14 @@ h1 {
   line-height: 1.12;
   text-align: center;
   overflow-wrap: anywhere;
+}
+
+.attribute-result span {
+  font-size: clamp(0.9rem, 1.55vw, 1.35rem);
+  text-transform: uppercase;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
 }
 
 .randomizer-card button {
@@ -138,9 +157,10 @@ h1 {
 
 .connector {
   color: #000000;
-  font-size: clamp(1.55rem, min(3vw, 4.8vh), 2.8rem);
+  font-size: clamp(1.3rem, min(2.7vw, 4.4vh), 2.6rem);
   font-weight: 900;
   line-height: 1;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -168,14 +188,66 @@ h1 {
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 900px) {
+  .randomizer-board {
+    width: min(100%, 720px);
+  }
+
+  .randomizer-row {
+    grid-template-columns: minmax(120px, 180px) auto minmax(120px, 180px);
+    grid-template-areas:
+      "player-one with player-two"
+      "attribute-label owns attribute";
+  }
+
+  .randomizer-row > .randomizer-card:nth-of-type(1) {
+    grid-area: player-one;
+  }
+
+  .randomizer-row > .connector:nth-of-type(1) {
+    grid-area: with;
+  }
+
+  .randomizer-row > .randomizer-card:nth-of-type(2) {
+    grid-area: player-two;
+  }
+
+  .randomizer-row > .connector:nth-of-type(2) {
+    grid-area: owns;
+  }
+
+  .randomizer-row > .randomizer-card:nth-of-type(3) {
+    grid-area: attribute;
+  }
+
+  .randomizer-row::before {
+    content: "";
+    grid-area: attribute-label;
+  }
+}
+
+@media (max-width: 560px) {
   .randomizer-row {
     grid-template-columns: 1fr;
+    grid-template-areas: none;
     justify-items: center;
   }
 
+  .randomizer-row > .randomizer-card:nth-of-type(1),
+  .randomizer-row > .randomizer-card:nth-of-type(2),
+  .randomizer-row > .randomizer-card:nth-of-type(3),
+  .randomizer-row > .connector:nth-of-type(1),
+  .randomizer-row > .connector:nth-of-type(2) {
+    grid-area: auto;
+  }
+
+  .randomizer-row::before {
+    content: none;
+  }
+
   .randomizer-card {
-    width: min(100%, 260px);
+    width: min(100%, 240px);
+    max-width: none;
   }
 
   .connector {
