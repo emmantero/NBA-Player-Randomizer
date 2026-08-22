@@ -94,27 +94,29 @@ function App() {
 
       <section className="randomizer-board" aria-label="NBA player randomizer">
         {rows.map((row) => (
-          <div className="randomizer-row" key={row}>
-            {createElement(RandomizerCard, {
-              title: 'Player 1',
-              placeholder: 'Press Spin',
-              items: players,
-              type: 'player',
-            })}
-            <span className="connector">With</span>
-            {createElement(RandomizerCard, {
-              title: 'Player 2',
-              placeholder: 'Press Spin',
-              items: players,
-              type: 'player',
-            })}
-            <span className="connector">'s</span>
-            {createElement(RandomizerCard, {
-              title: 'Attribute',
-              placeholder: '-',
-              items: attributes,
-              type: 'attribute',
-            })}
+          <div className="row-group" key={row}>
+            <div className="randomizer-row">
+              {createElement(RandomizerCard, {
+                title: 'Player 1',
+                placeholder: 'Press Spin',
+                items: players,
+                type: 'player',
+              })}
+              <span className="connector">With</span>
+              {createElement(RandomizerCard, {
+                title: 'Player 2',
+                placeholder: 'Press Spin',
+                items: players,
+                type: 'player',
+              })}
+              <span className="connector">'s</span>
+              {createElement(RandomizerCard, {
+                title: 'Attribute',
+                placeholder: '-',
+                items: attributes,
+                type: 'attribute',
+              })}
+            </div>
           </div>
         ))}
       </section>
