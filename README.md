@@ -8,7 +8,7 @@ Inspired by an episode of "The Deep 3" podcast. Big shoutout to them: https://ww
 
 ## Player Data
 
-Current NBA player data is generated with a small Python script using `nba_api`. The generated file is saved to `public/data/players.json` and includes each player's name, NBA ID, full-size headshot URL, and thumbnail URL.
+Current NBA player data is generated with a small Python script using [`nba_api`](https://github.com/swar/nba_api). This is the library used to generate the `public/data/players.json` file, which includes each player's name, NBA ID, full-size headshot URL, and thumbnail URL.
 
 Install the Python dependency:
 
