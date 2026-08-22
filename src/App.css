@@ -1,0 +1,28 @@
+.app-shell {
+  min-height: 100vh;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  padding: clamp(28px, 6vw, 56px);
+}
+
+.page-header {
+  width: min(100%, 760px);
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  color: #ffffff;
+  font-size: clamp(2rem, 7vw, 3.75rem);
+  font-weight: 700;
+  line-height: 1.05;
+}
+
+.page-header p {
+  margin: clamp(12px, 2vw, 18px) 0 0;
+  color: #c9d4e5;
+  font-size: clamp(1.35rem, 4.2vw, 2.75rem);
+  font-style: italic;
+  line-height: 1.1;
+}
