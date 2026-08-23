@@ -270,5 +270,85 @@
     "lastName": "Porter Jr.",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629008.png",
     "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1629008.png"
+  },
+  {
+    "id": 1642843,
+    "name": "Cooper Flagg",
+    "firstName": "Cooper",
+    "lastName": "Flagg",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642843.png",
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1642843.png"
+  },
+  {
+    "id": 1642851,
+    "name": "Kon Knueppel",
+    "firstName": "Kon",
+    "lastName": "Knueppel",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642851.png",
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1642851.png"
+  },
+  {
+    "id": 1630163,
+    "name": "LaMelo Ball",
+    "firstName": "LaMelo",
+    "lastName": "Ball",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630163.png",
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1630163.png"
+  },
+  {
+    "id": 203497,
+    "name": "Rudy Gobert",
+    "firstName": "Rudy",
+    "lastName": "Gobert",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/203497.png",
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/203497.png"
+  },
+  {
+    "id": 1642845,
+    "name": "VJ Edgecombe",
+    "firstName": "VJ",
+    "lastName": "Edgecombe",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642845.png",
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1642845.png"
+  },
+  {
+    "id": 1641706,
+    "name": "Brandon Miller",
+    "firstName": "Brandon",
+    "lastName": "Miller",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641706.png",
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1641706.png"
+  },
+  {
+    "id": 1628401,
+    "name": "Derrick White",
+    "firstName": "Derrick",
+    "lastName": "White",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628401.png",
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1628401.png"
+  },
+  {
+    "id": 1630202,
+    "name": "Payton Pritchard",
+    "firstName": "Payton",
+    "lastName": "Pritchard",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630202.png",
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1630202.png"
+  },
+  {
+    "id": 1627750,
+    "name": "Jamal Murray",
+    "firstName": "Jamal",
+    "lastName": "Murray",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1627750.png",
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1627750.png"
+  },
+  {
+    "id": 1627783,
+    "name": "Pascal Siakam",
+    "firstName": "Pascal",
+    "lastName": "Siakam",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1627783.png",
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1627783.png"
   }
 ]
