@@ -53,7 +53,7 @@ h1 {
   grid-template-columns:
     minmax(110px, 190px) minmax(42px, 0.35fr)
     minmax(110px, 190px) minmax(28px, 0.22fr)
-    minmax(110px, 190px);
+    minmax(110px, 190px) 42px;
   align-items: center;
   justify-content: center;
   gap: clamp(8px, 1.5vw, 22px);
@@ -173,6 +173,32 @@ h1 {
   text-transform: uppercase;
 }
 
+.row-refresh-button {
+  width: 42px;
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  border: 2px solid #d4c447;
+  border-radius: 6px;
+  background: #263dd8;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.row-refresh-button:hover {
+  background: #3150f0;
+}
+
+.row-refresh-button svg {
+  width: 22px;
+  height: 22px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2.4;
+}
+
 @keyframes slotRoll {
   0% {
     transform: translateY(-95%);
@@ -203,10 +229,10 @@ h1 {
   }
 
   .randomizer-row {
-    grid-template-columns: minmax(120px, 180px) auto minmax(120px, 180px);
+    grid-template-columns: minmax(120px, 180px) auto minmax(120px, 180px) 42px;
     grid-template-areas:
-      "player-one with player-two"
-      "attribute-label owns attribute";
+      "player-one with player-two refresh"
+      "attribute-label owns attribute refresh";
   }
 
   .randomizer-row > .randomizer-card:nth-of-type(1) {
@@ -229,6 +255,10 @@ h1 {
     grid-area: attribute;
   }
 
+  .row-refresh-button {
+    grid-area: refresh;
+  }
+
   .randomizer-row::before {
     content: "";
     grid-area: attribute-label;
@@ -246,7 +276,8 @@ h1 {
   .randomizer-row > .randomizer-card:nth-of-type(2),
   .randomizer-row > .randomizer-card:nth-of-type(3),
   .randomizer-row > .connector:nth-of-type(1),
-  .randomizer-row > .connector:nth-of-type(2) {
+  .randomizer-row > .connector:nth-of-type(2),
+  .row-refresh-button {
     grid-area: auto;
   }
 
