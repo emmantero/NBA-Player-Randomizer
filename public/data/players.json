@@ -350,5 +350,21 @@
     "lastName": "Siakam",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1627783.png",
     "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1627783.png"
+  },
+  {
+    "id": 1630578,
+    "name": "Alperen Sengun",
+    "firstName": "Alperen",
+    "lastName": "Sengun",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630578.png",
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1630578.png"
+  },
+  {
+    "id": 1630567,
+    "name": "Scottie Barnes",
+    "firstName": "Scottie",
+    "lastName": "Barnes",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630567.png",
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1630567.png"
   }
 ]
