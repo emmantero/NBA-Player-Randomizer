@@ -77,6 +77,7 @@ function RandomizerCard({ title, placeholder, items = [], type = 'text' }) {
 
 function App() {
   const [players, setPlayers] = useState([])
+  const [resetSignals, setResetSignals] = useState({ top: 0, bottom: 0 })
 
   useEffect(() => {
     fetch('/data/players.json')
@@ -84,6 +85,13 @@ function App() {
       .then(setPlayers)
       .catch(() => setPlayers([]))
   }, [])
+
+  function handleResetRow(row) {
+    setResetSignals((currentSignals) => ({
+      ...currentSignals,
+      [row]: currentSignals[row] + 1,
+    }))
+  }
 
   return (
     <main className="app-shell">
@@ -97,6 +105,7 @@ function App() {
           <div className="row-group" key={row}>
             <div className="randomizer-row">
               {createElement(RandomizerCard, {
+                key: `${row}-player-one-${resetSignals[row]}`,
                 title: 'Player 1',
                 placeholder: 'Press Spin',
                 items: players,
@@ -104,6 +113,7 @@ function App() {
               })}
               <span className="connector">With</span>
               {createElement(RandomizerCard, {
+                key: `${row}-player-two-${resetSignals[row]}`,
                 title: 'Player 2',
                 placeholder: 'Press Spin',
                 items: players,
@@ -111,11 +121,24 @@ function App() {
               })}
               <span className="connector">'s</span>
               {createElement(RandomizerCard, {
+                key: `${row}-attribute-${resetSignals[row]}`,
                 title: 'Attribute',
                 placeholder: '-',
                 items: attributes,
                 type: 'attribute',
               })}
+              <button
+                className="row-refresh-button"
+                type="button"
+                onClick={() => handleResetRow(row)}
+                aria-label={`Reset ${row} row`}
+                title="Reset row"
+              >
+                <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false">
+                  <path d="M20 12a8 8 0 1 1-2.34-5.66" />
+                  <path d="M20 4v6h-6" />
+                </svg>
+              </button>
             </div>
           </div>
         ))}
