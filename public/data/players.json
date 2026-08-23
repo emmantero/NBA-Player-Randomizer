@@ -366,5 +366,125 @@
     "lastName": "Barnes",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630567.png",
     "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1630567.png"
+  },
+  {
+    "id": 1631096,
+    "name": "Chet Holmgren",
+    "firstName": "Chet",
+    "lastName": "Holmgren",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1631096.png",
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1631096.png"
+  },
+  {
+    "id": 1641708,
+    "name": "Amen Thompson",
+    "firstName": "Amen",
+    "lastName": "Thompson",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641708.png",
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1641708.png"
+  },
+  {
+    "id": 1641709,
+    "name": "Ausar Thompson",
+    "firstName": "Ausar",
+    "lastName": "Thompson",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641709.png",
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1641709.png"
+  },
+  {
+    "id": 1630532,
+    "name": "Franz Wagner",
+    "firstName": "Franz",
+    "lastName": "Wagner",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630532.png",
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1630532.png"
+  },
+  {
+    "id": 1631105,
+    "name": "Jalen Duren",
+    "firstName": "Jalen",
+    "lastName": "Duren",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1631105.png",
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1631105.png"
+  },
+  {
+    "id": 1628415,
+    "name": "Dillon Brooks",
+    "firstName": "Dillon",
+    "lastName": "Brooks",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628415.png",
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1628415.png"
+  },
+  {
+    "id": 1630581,
+    "name": "Josh Giddey",
+    "firstName": "Josh",
+    "lastName": "Giddey",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630581.png",
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1630581.png"
+  },
+  {
+    "id": 1642258,
+    "name": "Zaccharie Risacher",
+    "firstName": "Zaccharie",
+    "lastName": "Risacher",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642258.png",
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1642258.png"
+  },
+  {
+    "id": 1641824,
+    "name": "Matas Buzelis",
+    "firstName": "Matas",
+    "lastName": "Buzelis",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641824.png",
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1641824.png"
+  },
+  {
+    "id": 1641764,
+    "name": "Brandin Podziemski",
+    "firstName": "Brandin",
+    "lastName": "Podziemski",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641764.png",
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1641764.png"
+  },
+  {
+    "id": 1629028,
+    "name": "Deandre Ayton",
+    "firstName": "Deandre",
+    "lastName": "Ayton",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629028.png",
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1629028.png"
+  },
+  {
+    "id": 1628398,
+    "name": "Kyle Kuzma",
+    "firstName": "Kyle",
+    "lastName": "Kuzma",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628398.png",
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1628398.png"
+  },
+  {
+    "id": 204001,
+    "name": "Kristaps Porziņģis",
+    "firstName": "Kristaps",
+    "lastName": "Porziņģis",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/204001.png",
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/204001.png"
+  },
+  {
+    "id": 1626156,
+    "name": "D'Angelo Russell",
+    "firstName": "D'Angelo",
+    "lastName": "Russell",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1626156.png",
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1626156.png"
+  },
+  {
+    "id": 203078,
+    "name": "Bradley Beal",
+    "firstName": "Bradley",
+    "lastName": "Beal",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/203078.png",
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/203078.png"
   }
 ]
