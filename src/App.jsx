@@ -21,7 +21,42 @@ function getRandomItem(items) {
   return items[Math.floor(Math.random() * items.length)]
 }
 
-function RandomizerCard({ title, placeholder, items = [], type = 'text' }) {
+function createPlayerOneDrawManager() {
+  const usedIds = new Set()
+  const displayedIds = new Map()
+
+  return {
+    resetRow(row) {
+      displayedIds.delete(row)
+    },
+    draw(players, row) {
+      const otherDisplayedIds = new Set(
+        [...displayedIds.entries()]
+          .filter(([displayedRow]) => displayedRow !== row)
+          .map(([, playerId]) => playerId),
+      )
+
+      let availablePlayers = players.filter(
+        (player) => !usedIds.has(player.id) && !otherDisplayedIds.has(player.id),
+      )
+
+      if (availablePlayers.length === 0) {
+        usedIds.clear()
+        otherDisplayedIds.forEach((playerId) => usedIds.add(playerId))
+        availablePlayers = players.filter((player) => !otherDisplayedIds.has(player.id))
+      }
+
+      const player = getRandomItem(availablePlayers)
+      if (player) {
+        usedIds.add(player.id)
+        displayedIds.set(row, player.id)
+      }
+      return player
+    },
+  }
+}
+
+function RandomizerCard({ title, placeholder, items = [], type = 'text', getFinalItem }) {
   const [selectedItem, setSelectedItem] = useState(null)
   const [isSpinning, setIsSpinning] = useState(false)
   const intervalRef = useRef(null)
@@ -48,7 +83,7 @@ function RandomizerCard({ title, placeholder, items = [], type = 'text' }) {
 
     timeoutRef.current = setTimeout(() => {
       clearInterval(intervalRef.current)
-      setSelectedItem(getRandomItem(items))
+      setSelectedItem(getFinalItem ? getFinalItem() : getRandomItem(items))
       setIsSpinning(false)
     }, SPIN_DURATION)
   }
@@ -78,6 +113,7 @@ function RandomizerCard({ title, placeholder, items = [], type = 'text' }) {
 function App() {
   const [players, setPlayers] = useState([])
   const [resetSignals, setResetSignals] = useState({ top: 0, bottom: 0 })
+  const [playerOneDrawManager] = useState(createPlayerOneDrawManager)
 
   useEffect(() => {
     fetch('/data/players.json')
@@ -87,10 +123,15 @@ function App() {
   }, [])
 
   function handleResetRow(row) {
+    playerOneDrawManager.resetRow(row)
     setResetSignals((currentSignals) => ({
       ...currentSignals,
       [row]: currentSignals[row] + 1,
     }))
+  }
+
+  function getUniquePlayerOne(row) {
+    return playerOneDrawManager.draw(players, row)
   }
 
   return (
@@ -110,6 +151,7 @@ function App() {
                 placeholder: 'Press Spin',
                 items: players,
                 type: 'player',
+                getFinalItem: () => getUniquePlayerOne(row),
               })}
               <span className="connector">With</span>
               {createElement(RandomizerCard, {
