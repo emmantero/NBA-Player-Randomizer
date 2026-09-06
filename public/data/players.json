@@ -5,23 +5,26 @@
     "firstName": "Giannis",
     "lastName": "Antetokounmpo",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/203507.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/203507.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/203507.png",
+    "position": "F"
   },
   {
     "id": 203999,
-    "name": "Nikola Jokić",
+    "name": "Nikola Joki\u0107",
     "firstName": "Nikola",
-    "lastName": "Jokić",
+    "lastName": "Joki\u0107",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/203999.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/203999.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/203999.png",
+    "position": "C"
   },
   {
     "id": 1629029,
-    "name": "Luka Dončić",
+    "name": "Luka Don\u010di\u0107",
     "firstName": "Luka",
-    "lastName": "Dončić",
+    "lastName": "Don\u010di\u0107",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629029.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1629029.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1629029.png",
+    "position": "F-G"
   },
   {
     "id": 201939,
@@ -29,7 +32,8 @@
     "firstName": "Stephen",
     "lastName": "Curry",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/201939.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/201939.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/201939.png",
+    "position": "G"
   },
   {
     "id": 2544,
@@ -37,7 +41,8 @@
     "firstName": "LeBron",
     "lastName": "James",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/2544.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/2544.png",
+    "position": "F"
   },
   {
     "id": 201142,
@@ -45,7 +50,8 @@
     "firstName": "Kevin",
     "lastName": "Durant",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/201142.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/201142.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/201142.png",
+    "position": "F"
   },
   {
     "id": 1628369,
@@ -53,7 +59,8 @@
     "firstName": "Jayson",
     "lastName": "Tatum",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628369.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1628369.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1628369.png",
+    "position": "F-G"
   },
   {
     "id": 1628983,
@@ -61,7 +68,8 @@
     "firstName": "Shai",
     "lastName": "Gilgeous-Alexander",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628983.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1628983.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1628983.png",
+    "position": "G"
   },
   {
     "id": 203954,
@@ -69,7 +77,8 @@
     "firstName": "Joel",
     "lastName": "Embiid",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/203954.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/203954.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/203954.png",
+    "position": "C-F"
   },
   {
     "id": 1630162,
@@ -77,7 +86,8 @@
     "firstName": "Anthony",
     "lastName": "Edwards",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630162.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1630162.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1630162.png",
+    "position": "G"
   },
   {
     "id": 1641705,
@@ -85,7 +95,8 @@
     "firstName": "Victor",
     "lastName": "Wembanyama",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641705.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1641705.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1641705.png",
+    "position": "F-C"
   },
   {
     "id": 203076,
@@ -93,7 +104,8 @@
     "firstName": "Anthony",
     "lastName": "Davis",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/203076.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/203076.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/203076.png",
+    "position": "F-C"
   },
   {
     "id": 1626164,
@@ -101,7 +113,8 @@
     "firstName": "Devin",
     "lastName": "Booker",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1626164.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1626164.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1626164.png",
+    "position": "G"
   },
   {
     "id": 1628378,
@@ -109,7 +122,8 @@
     "firstName": "Donovan",
     "lastName": "Mitchell",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628378.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1628378.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1628378.png",
+    "position": "G"
   },
   {
     "id": 1628973,
@@ -117,7 +131,8 @@
     "firstName": "Jalen",
     "lastName": "Brunson",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628973.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1628973.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1628973.png",
+    "position": "G"
   },
   {
     "id": 1629630,
@@ -125,7 +140,8 @@
     "firstName": "Ja",
     "lastName": "Morant",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629630.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1629630.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1629630.png",
+    "position": "G"
   },
   {
     "id": 1627759,
@@ -133,7 +149,8 @@
     "firstName": "Jaylen",
     "lastName": "Brown",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1627759.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1627759.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1627759.png",
+    "position": "G-F"
   },
   {
     "id": 202695,
@@ -141,7 +158,8 @@
     "firstName": "Kawhi",
     "lastName": "Leonard",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/202695.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/202695.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/202695.png",
+    "position": "F"
   },
   {
     "id": 202681,
@@ -149,7 +167,8 @@
     "firstName": "Kyrie",
     "lastName": "Irving",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/202681.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/202681.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/202681.png",
+    "position": "G"
   },
   {
     "id": 203081,
@@ -157,7 +176,8 @@
     "firstName": "Damian",
     "lastName": "Lillard",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/203081.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/203081.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/203081.png",
+    "position": "G"
   },
   {
     "id": 201935,
@@ -165,7 +185,8 @@
     "firstName": "James",
     "lastName": "Harden",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/201935.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/201935.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/201935.png",
+    "position": "G"
   },
   {
     "id": 202710,
@@ -173,7 +194,8 @@
     "firstName": "Jimmy",
     "lastName": "Butler III",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/202710.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/202710.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/202710.png",
+    "position": "F"
   },
   {
     "id": 1629027,
@@ -181,7 +203,8 @@
     "firstName": "Trae",
     "lastName": "Young",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629027.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1629027.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1629027.png",
+    "position": "G"
   },
   {
     "id": 1630169,
@@ -189,7 +212,8 @@
     "firstName": "Tyrese",
     "lastName": "Haliburton",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630169.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1630169.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1630169.png",
+    "position": "G"
   },
   {
     "id": 1630178,
@@ -197,7 +221,8 @@
     "firstName": "Tyrese",
     "lastName": "Maxey",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630178.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1630178.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1630178.png",
+    "position": "G"
   },
   {
     "id": 1631094,
@@ -205,7 +230,8 @@
     "firstName": "Paolo",
     "lastName": "Banchero",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1631094.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1631094.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1631094.png",
+    "position": "F"
   },
   {
     "id": 1630595,
@@ -213,7 +239,8 @@
     "firstName": "Cade",
     "lastName": "Cunningham",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630595.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1630595.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1630595.png",
+    "position": "G"
   },
   {
     "id": 1626157,
@@ -221,7 +248,8 @@
     "firstName": "Karl-Anthony",
     "lastName": "Towns",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1626157.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1626157.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1626157.png",
+    "position": "C-F"
   },
   {
     "id": 1628389,
@@ -229,7 +257,8 @@
     "firstName": "Bam",
     "lastName": "Adebayo",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628389.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1628389.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1628389.png",
+    "position": "C-F"
   },
   {
     "id": 1630559,
@@ -237,7 +266,8 @@
     "firstName": "Austin",
     "lastName": "Reaves",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630559.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1630559.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1630559.png",
+    "position": "G"
   },
   {
     "id": 1628384,
@@ -245,7 +275,8 @@
     "firstName": "OG",
     "lastName": "Anunoby",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628384.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1628384.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1628384.png",
+    "position": "F-G"
   },
   {
     "id": 1629639,
@@ -253,7 +284,8 @@
     "firstName": "Tyler",
     "lastName": "Herro",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629639.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1629639.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1629639.png",
+    "position": "G"
   },
   {
     "id": 203944,
@@ -261,7 +293,8 @@
     "firstName": "Julius",
     "lastName": "Randle",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/203944.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/203944.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/203944.png",
+    "position": "F-C"
   },
   {
     "id": 1629008,
@@ -269,7 +302,8 @@
     "firstName": "Michael",
     "lastName": "Porter Jr.",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629008.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1629008.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1629008.png",
+    "position": "F"
   },
   {
     "id": 1642843,
@@ -277,7 +311,8 @@
     "firstName": "Cooper",
     "lastName": "Flagg",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642843.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1642843.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1642843.png",
+    "position": "F"
   },
   {
     "id": 1642851,
@@ -285,7 +320,8 @@
     "firstName": "Kon",
     "lastName": "Knueppel",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642851.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1642851.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1642851.png",
+    "position": "G-F"
   },
   {
     "id": 1630163,
@@ -293,7 +329,8 @@
     "firstName": "LaMelo",
     "lastName": "Ball",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630163.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1630163.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1630163.png",
+    "position": "G"
   },
   {
     "id": 203497,
@@ -301,7 +338,8 @@
     "firstName": "Rudy",
     "lastName": "Gobert",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/203497.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/203497.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/203497.png",
+    "position": "C"
   },
   {
     "id": 1642845,
@@ -309,7 +347,8 @@
     "firstName": "VJ",
     "lastName": "Edgecombe",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642845.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1642845.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1642845.png",
+    "position": "G"
   },
   {
     "id": 1641706,
@@ -317,7 +356,8 @@
     "firstName": "Brandon",
     "lastName": "Miller",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641706.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1641706.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1641706.png",
+    "position": "F"
   },
   {
     "id": 1628401,
@@ -325,7 +365,8 @@
     "firstName": "Derrick",
     "lastName": "White",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628401.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1628401.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1628401.png",
+    "position": "G"
   },
   {
     "id": 1630202,
@@ -333,7 +374,8 @@
     "firstName": "Payton",
     "lastName": "Pritchard",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630202.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1630202.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1630202.png",
+    "position": "G"
   },
   {
     "id": 1627750,
@@ -341,7 +383,8 @@
     "firstName": "Jamal",
     "lastName": "Murray",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1627750.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1627750.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1627750.png",
+    "position": "G"
   },
   {
     "id": 1627783,
@@ -349,7 +392,8 @@
     "firstName": "Pascal",
     "lastName": "Siakam",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1627783.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1627783.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1627783.png",
+    "position": "F"
   },
   {
     "id": 1630578,
@@ -357,7 +401,8 @@
     "firstName": "Alperen",
     "lastName": "Sengun",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630578.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1630578.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1630578.png",
+    "position": "C"
   },
   {
     "id": 1630567,
@@ -365,7 +410,8 @@
     "firstName": "Scottie",
     "lastName": "Barnes",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630567.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1630567.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1630567.png",
+    "position": "F-G"
   },
   {
     "id": 1631096,
@@ -373,7 +419,8 @@
     "firstName": "Chet",
     "lastName": "Holmgren",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1631096.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1631096.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1631096.png",
+    "position": "C-F"
   },
   {
     "id": 1641708,
@@ -381,7 +428,8 @@
     "firstName": "Amen",
     "lastName": "Thompson",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641708.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1641708.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1641708.png",
+    "position": "G-F"
   },
   {
     "id": 1641709,
@@ -389,7 +437,8 @@
     "firstName": "Ausar",
     "lastName": "Thompson",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641709.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1641709.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1641709.png",
+    "position": "G-F"
   },
   {
     "id": 1630532,
@@ -397,7 +446,8 @@
     "firstName": "Franz",
     "lastName": "Wagner",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630532.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1630532.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1630532.png",
+    "position": "F"
   },
   {
     "id": 1631105,
@@ -405,7 +455,8 @@
     "firstName": "Jalen",
     "lastName": "Duren",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1631105.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1631105.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1631105.png",
+    "position": "C"
   },
   {
     "id": 1628415,
@@ -413,7 +464,8 @@
     "firstName": "Dillon",
     "lastName": "Brooks",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628415.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1628415.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1628415.png",
+    "position": "G-F"
   },
   {
     "id": 1630581,
@@ -421,7 +473,8 @@
     "firstName": "Josh",
     "lastName": "Giddey",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630581.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1630581.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1630581.png",
+    "position": "G"
   },
   {
     "id": 1642258,
@@ -429,7 +482,8 @@
     "firstName": "Zaccharie",
     "lastName": "Risacher",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1642258.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1642258.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1642258.png",
+    "position": "F"
   },
   {
     "id": 1641824,
@@ -437,7 +491,8 @@
     "firstName": "Matas",
     "lastName": "Buzelis",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641824.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1641824.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1641824.png",
+    "position": "F"
   },
   {
     "id": 1641764,
@@ -445,7 +500,8 @@
     "firstName": "Brandin",
     "lastName": "Podziemski",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1641764.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1641764.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1641764.png",
+    "position": "G"
   },
   {
     "id": 1629028,
@@ -453,7 +509,8 @@
     "firstName": "Deandre",
     "lastName": "Ayton",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629028.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1629028.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1629028.png",
+    "position": "C"
   },
   {
     "id": 1628398,
@@ -461,15 +518,17 @@
     "firstName": "Kyle",
     "lastName": "Kuzma",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628398.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1628398.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1628398.png",
+    "position": "F"
   },
   {
     "id": 204001,
-    "name": "Kristaps Porziņģis",
+    "name": "Kristaps Porzi\u0146\u0123is",
     "firstName": "Kristaps",
-    "lastName": "Porziņģis",
+    "lastName": "Porzi\u0146\u0123is",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/204001.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/204001.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/204001.png",
+    "position": "F-C"
   },
   {
     "id": 1626156,
@@ -477,7 +536,8 @@
     "firstName": "D'Angelo",
     "lastName": "Russell",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1626156.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1626156.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/1626156.png",
+    "position": "G"
   },
   {
     "id": 203078,
@@ -485,6 +545,7 @@
     "firstName": "Bradley",
     "lastName": "Beal",
     "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/203078.png",
-    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/203078.png"
+    "thumbnail": "https://cdn.nba.com/headshots/nba/latest/260x190/203078.png",
+    "position": "G"
   }
 ]
