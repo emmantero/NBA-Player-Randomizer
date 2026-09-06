@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "players:generate": "python3 scripts/generate_players.py"
+    "players:generate": "python3 scripts/generate_players.py",
+    "players:positions": "python3 scripts/enrich_player_positions.py"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
