@@ -41,3 +41,12 @@ Regenerate the player data:
 ```bash
 npm run players:generate
 ```
+
+Update the position data for the current player list:
+
+```bash
+npm run players:positions
+```
+
+The NBA Stats position data uses position groups (such as `G`, `F`, `C`, and `G-F`).
+The app uses those groups to place a draft pick into a compatible roster slot.
