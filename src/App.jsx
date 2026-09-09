@@ -88,11 +88,12 @@ function RandomizerCard({
   placeholder,
   items = [],
   type = 'text',
+  initialSelectedItem = null,
   getFinalItem,
   onSpinStart,
   onSelectionChange,
 }) {
-  const [selectedItem, setSelectedItem] = useState(null)
+  const [selectedItem, setSelectedItem] = useState(initialSelectedItem)
   const [isSpinning, setIsSpinning] = useState(false)
   const intervalRef = useRef(null)
   const timeoutRef = useRef(null)
@@ -353,6 +354,7 @@ function App() {
                     placeholder: 'Press Spin',
                     items: players,
                     type: 'player',
+                    initialSelectedItem: rowSelections[row].playerOne,
                     getFinalItem: () => getUniquePlayerOne(row),
                     onSpinStart: () => updateRowSelection(row, 'playerOne', null),
                     onSelectionChange: (player) => updateRowSelection(row, 'playerOne', player),
@@ -364,6 +366,7 @@ function App() {
                     placeholder: 'Press Spin',
                     items: players,
                     type: 'player',
+                    initialSelectedItem: rowSelections[row].playerTwo,
                     onSpinStart: () => updateRowSelection(row, 'playerTwo', null),
                     onSelectionChange: (player) => updateRowSelection(row, 'playerTwo', player),
                   })}
@@ -374,6 +377,7 @@ function App() {
                     placeholder: '-',
                     items: attributes,
                     type: 'attribute',
+                    initialSelectedItem: rowSelections[row].attribute,
                     onSpinStart: () => updateRowSelection(row, 'attribute', null),
                     onSelectionChange: (attribute) =>
                       updateRowSelection(row, 'attribute', attribute),
